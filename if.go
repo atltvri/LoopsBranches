@@ -12,6 +12,17 @@ func main() {
 	}else{
 		fmt.Println("Didn't quite get that.")
 	}
-	
+
+	//Qc 3.3
+	var room = "entrance"
+	if room == "cave" {
+		fmt.Println("You live in a cave.")
+	}else if room == "mountain" {
+		fmt.Println("You a mountain guy.")
+	}else if room=="entrance" {
+		fmt.Println("You found it, you'll go to next level.")
+	}else {
+		fmt.Println("Didn't quite get that.")
+	}
 
 }
